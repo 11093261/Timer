@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+.images{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url('./pic2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.images h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.clock{
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.clockit{
+    height:30vh ;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px 10px;
+    
+    
+}
+.clock-one{
+    display: flex;
+    height: 20vh;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    gap: 10px;
+    
+}
+.clock-one p{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 42px 0px;
+    
+}
+.clock-two{
+    display: flex;
+    height: 20vh;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+
+}
+.clock-two p{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 42px 0px;
+    
+}
+
+
+
+.clock-three{
+    display: flex;
+    height: 20vh;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+
+
+}
+.clock-three p{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 42px 0px;
+
+}
+
+
+.clock-four{
+    display: flex;
+    height: 10vh;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+
+}
+@media only screen and (max-width:600px){
+    .clock{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    flex-direction: column;
+} 
+    .clockit{
+    height:30vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0px 20px;
+    
+    
+}   
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+
+}
+
+main{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:purple;
+    flex-direction: column;
+
+}
+
+header{
+    height: 15vh;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 80%;
+    flex-direction: row;
+    gap: 20px;
+}
+section h1{
+    background-color: black;
+    box-shadow: 1px 2px 3px rgba(94, 14, 97, 0.5);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+span{
+    color:blue;
+}
+section button{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 3px rgba(110, 22, 182, 0.5);
+    width: 10%;
+    height: 5vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+
+nav a{
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.shape{
+    width: 4rem;
+    height: 4rem;
+    background-color: green;
+}

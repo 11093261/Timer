@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: chocolate;
+}
+
+main{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: fuchsia;
+    border-radius: 20px;
+    flex-direction: column;
+    gap:20px ;
+
+
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    width: 80%;
+    
+}
+
+textarea{
+    width: 60%;
+    height: 15vh;
+    padding: 10px 10px;
+}
+.spread{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 200px
+}
+
+.spread p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Remain{
+    color: blue;
+}
+.count{
+    color: red;
+}

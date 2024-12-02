@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    background-color: blueviolet;
+    flex-direction: column;
+}
+
+.cal{
+    
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    width: 20%;
+    height: 30vh;
+}
+.month{
+    background-color: orangered;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+
+
+.date{
+    text-align: center;
+    font-size: 20px;
+}
+
+.week{
+    font-size: 20px;
+}
+.days{
+    font-weight: bold;
+    font-size: 30px;
+}
+.year{
+    font-size: 20px;
+
+}

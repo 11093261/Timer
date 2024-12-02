@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+section{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+
+}
+form{
+    height: 100%;
+    width: 60%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+div{
+    height: 100%;
+    background-color: orange;
+    width: 40%;
+}
+input{
+    width: 50vw;
+    padding: 20px;
+    border-radius: 20px;
+}
+button{
+    background-color: gray;
+    padding: 5px;
+    font-size: 20px;
+    border-radius:5px ;
+    margin-top: 40px;
+}
+.task{
+    margin: 10px;
+    border: 2px solid grey;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}

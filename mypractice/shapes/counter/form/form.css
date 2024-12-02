@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    background-color: chocolate;
+    gap: 10px;
+}
+main h1{
+    color: white;
+    font-size: 30px;
+}

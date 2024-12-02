@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    display: flex;
+    height: 100Vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 50%;
+    background-color: lightpink;
+    flex-direction: column;
+
+}
+.display{
+    background-color: white;
+    height: 10vh;
+    width: 32.6%;
+    
+} 
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4px;
+    justify-content: center;
+    align-content: center;
+    background-color: chartreuse;
+    height: 50vh;
+    width: 30%;
+    padding: 0px 10px;
+
+}
+section button{
+    width: 70%;
+    height: 5vh;
+}
